@@ -1,0 +1,41 @@
+/* same font for the headings and paragraphs */
+h1,
+h2,
+h3,
+p {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* main heading of the page */
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("../images/pattern.jpeg");
+}
+
+/* name of the articles */
+.article-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+/* prices of products are enleighted */
+.price {
+  font-weight: bold;
+  color: blue;
+}
